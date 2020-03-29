@@ -202,40 +202,55 @@ Examples of **native JavaScript values that are mutable include** `objects`, `ar
 
 ### React
 
-React uses a virtual Document Object Model (DOM), which enables easily implementing minor data changes in one element without updating the structure of the entire tree. The framework creates an in-memory cache of data structure, computes the changes, and efficiently updates the DOM displayed in the browser. This way, the entire page seems to be rendered on each change, whereas actually, the libraries render changed subcomponents only.
+React uses a **virtual Document Object Model (DOM)**, which enables easily implementing **minor data changes in one element without updating the structure of the entire tree.** The framework creates an **in-memory cache of data structure**, **computes the changes**, and **efficiently updates the DOM displayed in the browser**. This way, the entire page seems to be rendered on each change, whereas actually, the libraries render changed subcomponents only.
 
 The React team is constantly improving Fiber – a mechanism aimed at boosting the productivity of change rendering.
 
 ### Angular
 
-Angular uses a real DOM, which updates the entire tree structure even when the changes have taken place in a single element. The real DOM is considered to be slower and less effective than the virtual DOM.
+Angular uses a **real DOM, which updates the entire tree structure even when the changes have taken place in a single element**. The real DOM is considered to be **slower and less effective than the virtual DOM**.
 
-To compensate for this disadvantage, Angular uses change detection to identify components that need to be altered. Therefore, the real DOM on Angular performs as effectively as the virtual DOM on React.
+To compensate for this disadvantage, **Angular uses change detection to identify components that need to be altered.** Therefore, the real DOM on Angular performs as effectively as the virtual DOM on React.
 
 ### ---->Tools
 
 ### React
 
-React is supported by multiple code editors. For instance, the code in React can be edited with Sublime Text, Visual Studio, and Atom. To bootstrap a project, you can use the Create React App (CLI) tool. In turn, server-side rendering is completed with the use of Next.js framework.
+React is supported by **multiple code editors**. For instance, the code in React can be edited with Sublime Text, Visual Studio, and Atom. To bootstrap a project, you can use the Create React App (CLI) tool. In turn, server-side rendering is completed with the use of Next.js framework.
 
-To test the entire app written in React, you would need multiple tools. For instance, Enzyme for component testing, Jest for testing JS code, React-unit for unit testing and so on. To debug the app in the development mode, you can use a browser extension React Dev Tools.
+To test the entire app written in React, you would need multiple tools. For instance, **Enzyme for component testing**, **Jest for testing JS code**, **React-unit for unit testing** and so on. To debug the app in the development mode, you can use a **browser extension React Dev Tools**.
 
-Another interesting tool is React 360, which is a library used for creating AR and VR applications.
+Another interesting tool is **React 360**, which is a **library used for creating AR and VR applications**.
 
 ### Angular
 
-Similarly to React, Angular is supported by a variety of code editing tools. For example, you may work with such code editors as Aptana, Sublime Text, and Visual Studio. A project can be promptly set up with Angular CLI. Server-side rendering is completed with the help of Angular Universal.
+Similarly to React, Angular is **supported by a variety of code editing tools**. For example, you may work with such code editors as Aptana, Sublime Text, and Visual Studio. A project can be promptly set up with Angular CLI. Server-side rendering is completed with the help of Angular Universal.
 
-Unlike React, Angular can be fully tested with a single tool. For the end-to-end testing in Angular, the platforms are Jasmine, Protractor, and Karma. Another tool that debugs the app in the development mode is a browser extension Augury.
+Unlike React, Angular **can be fully tested with a single tool**. For the **end-to-end testing in Angular**, the platforms are **Jasmine**, **Protractor**, and **Karma**. Another tool that debugs the app in the development mode is a **browser extension Augury**.
 
 ### ---->To Wrap Up
 
-Angular is a full-fledged mobile and web development framework. React is a framework only for UI development, which can be turned into a full-fledged solution with the help of additional libraries.
+`Angular` is a full-fledged mobile and web development framework.</br >
+`React` is a framework only for UI development, which can be turned into a full-fledged solution with the help of additional libraries.
 
-React seems simpler at first sight, and it takes less time to start working on a React project. However, simplicity as the outspoken advantage of React is neutralized with the necessity to learn to work with additional JavaScript frameworks and tools. Angular itself is more complex and takes quite some time to master. Yet, it is a powerful tool that offers a holistic web development experience, and once you learn how to work with it, you reap the fruits. 
+`React` seems simpler at first sight, and it takes less time to start working on a React project. 
+However, simplicity as the outspoken advantage of React is neutralized with the necessity to learn to work with additional JavaScript frameworks and tools. </br >
 
-There is no better framework. Both are updated continuously to keep up with the competitor. For instance, while React was believed to win because of its virtual DOM, Angular equaled the score by implementing change detection. While Angular was considered to be winning because of being developed by such an authoritative company as Google, the immense devoted React community fully compensated for Google‘s reputation and made React similar to Angular.
+`Angular` itself is more complex and takes quite some time to master. Yet, it is a powerful tool that offers a holistic web development experience, and once you learn how to work with it, you reap the fruits. 
 
-Eventually, React vs Angular is all a matter of personal preference, a matter of skills and habits. As a beginner in programming, you would probably benefit more from starting with React. As an experienced developer, you just keep working with what you know better. Do not forget to challenge yourself and start learning a new framework, React or Angular. As a Project Manager or a business owner outsourcing developers, you should talk to your web development team and together choose the framework that suits all of you best, would it be Angular or React.
+**There is no better framework.** Both are updated continuously to keep up with the **competitor**. For instance, </br >
+
+while **React was believed to win because of its virtual DOM**, </br >
+**Angular equaled the score by implementing change detection**. </br >
+
+While Angular was considered to be winning because of being developed by such an authoritative company as Google, the immense devoted React community fully compensated for Google‘s reputation and made React similar to Angular.
+
+`Eventually`, **React vs Angular is all a matter of personal preference**, a matter of skills and habits. </br >
+
+As a **beginner in programming**, you would probably benefit more from starting with React.</br >
+
+As an **experienced developer**, you just keep working with what you know better. </br >
+
+Do not forget to challenge yourself and start learning a new framework, React or Angular. As a Project Manager or a business owner outsourcing developers, you should talk to your web development team and together choose the framework that suits all of you best, would it be Angular or React.
 
 `Source` --> https://keenethics.com/blog/angular-vs-react-what-to-choose-for-your-app
