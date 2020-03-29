@@ -91,112 +91,111 @@ Angular is **used by such companies** as McDonald’s, AT&T, HBO, Apple, Forbes,
 
 `React`
 
-React’s performance is greatly improved with the introduction of the virtual DOM. Since all virtual DOM trees are lightweight and built on server, the load on browser is reduced. Furthermore, since the data-binding process is unidirectional, bindings are not assigned watchers as in the case of Angular. Respectively, no additional workload is created.
+React’s performance is **greatly improved with the introduction of the virtual DOM**. Since all virtual DOM trees are lightweight and built on server, **the load on browser is reduced**. Furthermore, since the **data-binding process is unidirectional, no additional workload is created**.
 
 `Angular`
 
-Angular performs worse, especially in the case of complex and dynamic web apps.
+Angular **performs worse, especially in the case of complex and dynamic web apps**.
 
-The performance of Angular apps is negatively affected by bidirectional data-binding. Each binding is assigned a watcher to track changes, and each loop continues until all the watchers and associated values are checked. Because of this, the more bindings you have, the more watchers are created, and the more cumbersome the process becomes.
+The performance of Angular apps is **negatively affected by bidirectional data-binding**. 
+**Each binding is assigned a watcher to track changes**, and **each loop continues until all the watchers and associated values are checked**. Because of this, the **more bindings you have, the more watchers are created**, and the more cumbersome the process becomes.
 
-However, the most recent update of Angular has greatly improved its performance, and it does not lose to React anymore. Moreover, the size of an Angular application is slightly smaller than the size of a React app.
+However, the most **recent update of Angular has greatly improved its performance**, and it does not lose to React anymore. Moreover, the **size of an Angular application is slightly smaller than the size of a React app**.
 
 ### Language
 
 `React`
 
-React is based on JavaScript ES6+ combined with JSX script. JSX is an extension for syntax, which makes a JavaScript code resemble that written in HTML. This makes the code easier to understand, and typos are easier to spot. For the JSX code to be compiled in a browser, React is augmented with Babel – a code translation tool.
+React is based on **JavaScript ES6+ combined with JSX script**. **JSX is an extension for syntax**, which makes a JavaScript code resemble that written in HTML. This makes the code easier to understand, and typos are easier to spot. For the JSX code to be compiled in a browser, **React is augmented with Babel – a code translation tool**.
 
 `Angular`
 
-Angular can use JavaScript or TypeScript, which is a superset of JS developed specifically for larger projects. TypeScript is more compact than JavaScript, the code is easier to navigate, and typos are easily spotted. Code refactoring process also becomes simpler and faster.
+Angular can use **JavaScript or TypeScript, which is a superset of JS developed specifically for larger projects**. TypeScript is more compact than JavaScript, the **code is easier to navigate**, and **typos are easily spotted. Code refactoring process also becomes simpler and faster**.
 
 
 ### App Structure
 
 `React`
 
-The structure of React provides developers with the freedom to choose. There is no “the only right structure” for a React app. However, the necessity to design the app structure at the beginning of each project makes it more difficult and longer to start.
+The structure of **React provides developers with the freedom to choose**. There is no “the only right structure” for a React app. **However, the necessity to design the app structure at the beginning** of each project makes it more difficult and longer to start.
 
-Besides, React offers only View layer, while Model and Controller are added with the usage of other libraries.
+Besides, **React offers only View layer, while Model and Controller are added with the usage of other libraries**.
 
-The architecture of a React app is component-based. The code is made of React components, which are rendered with React DOM library and directed in two ways: functional (with a function that returns JSX) and class-based (with ES6 classes).
+The **architecture of a React app is component-based**. The code is made of React components, which are rendered with React DOM library and directed in two ways: **functional (with a function that returns JSX)** and **class-based (with ES6 classes)**.
 
 `Angular`
 
-The structure of Angular is fixed and complex, suitable for experienced developers.
+The **structure of Angular is fixed and complex**, suitable for experienced developers.
 
-Angular is based on three layers – Model, Controller, and View. An object responsible for the Model is initialized by the Controller and displayed with the View.
+Angular is based on three layers – **Model, Controller, and View**. An object responsible for the Model is initialized by the Controller and displayed with the View.
 
-The application code consists of different Angular components, each being written in four separate files: a TypeScript to implement the component, an HTML file to define the view, a CSS file to define the stylistic features, and a special file for testing purposes. Links to these files are written in the app directive, which displays the structural logic of the app. Respectively, Angular components are also reusable.
+The application **code consists of different Angular components**, **each being written in four separate files**: a `TypeScript` to implement the component, an `HTML` file to define the view, a `CSS` file to define the stylistic features, and a special file for `testing` purposes. Links to these files are written in the app directive, which displays the structural logic of the app. Respectively, Angular components are also reusable.
 
 ### UI Components
 
 `React`
 
-UI tools for React are developed by the community. There are a lot of free and paid UI components on the React portal. To use material design components in React, you would have to install an additional library – Material-UI Library & Dependencies.
+**UI tools for React are developed by the community**. There are a lot of **free and paid UI components** on the React portal. To use material design components in React, you would have to install an **additional library** – Material-UI Library & Dependencies.
 
 `Angular`
 
-Angular has a built-in Material toolset, and it offers a variety of pre-built material design components. There are various buttons, layouts, indicators, pop-ups, and form controls. Because of this, UI configuration becomes simpler and faster.
+Angular has a **built-in Material toolset**, and it offers a variety of pre-built material design components. There are various buttons, layouts, indicators, pop-ups, and form controls. Because of this, UI configuration becomes simpler and faster.
 
 ### Directives
 
 `React`
 
-In React, templates and logic are explained in one place – at the end of the component. It allows the reader to quickly grasp the meaning of the code even if they do not know the syntax.
+In React, **templates and logic are explained in one place** – at the end of the component. It allows the **reader to quickly grasp the meaning of the code** even if they do not know the syntax.
 
 `Angular`
 
-In Angular, each template is returned with an attribute – a directive of how the object has to be set. The syntax of Angular directives is complex and sophisticated, which makes it incomprehensible for a reader without any experience in working with this technology.
+In Angular, **each template is returned with an attribute** – a directive of **how the object has to be set**. The syntax of Angular directives is **complex and sophisticated**, which makes it **incomprehensible for a reader without any experience in working with this technology**.
 
 ### State Management
 
 `React`
 
-In React, each component has its own state. A React developer can create special components for holding the state of the entire application or a particular part of it. The major disadvantage here consists in the fact that the global state needs to be stored in multiple different parts of the app with data being manually passed around different component tree levels.
+In React, **each component has its own state**. A React developer can create special components for holding the state of the entire application or a particular part of it. **The major disadvantage here consists in the fact that the global state needs to be stored in multiple different parts of the app with data being manually passed around different component tree levels**.
 
-To solve this problem, there is a special state management library – Redux. The idea of it is that the global state is represented as a single stateful object, which is altered in different parts of the app with the help of reducers – special Redux functions.
+To **solve this problem**, there is a **special state management library – Redux**. The idea of it is that the global state is **represented as a single stateful object**, which is **altered in different parts of the app with the help of reducers – special Redux functions**.
 
-Another solution is offered by the state management library MobX. Unlike Redux with the global state stored in a single immutable stateful object, MobX offers storing only the minimal required state, while the rest of it can be derived.
+**Another solution** is offered by the **state management library MobX**. Unlike Redux with the global state stored in a single immutable stateful object, **MobX offers storing only the minimal required state**, while the rest of it can be derived.
 
 `Angular`
 
-In Angular, component data is stored in component properties. Parent components pass data through to children ones. State changes in some parts can be identified and recalculated, but in a large app, it can cause a multi-directional tree series of updates, which will be difficult to track. The features can be improved with the help of state management libraries, such as NgRx or RxJS , which would make sure that the data flow is unidirectional.
+In Angular, **component data is stored in component properties**. **Parent components pass data through to children ones**. State changes in some parts can be identified and recalculated, but in a large app, it can cause a **multi-directional tree series of updates, which will be difficult to track**. The features can be **improved with the help of state management libraries**, such as **NgRx or RxJS**, `which would make sure that the data flow is unidirectional`.
 
 ### Dependency Injection
 
 `React`
 
-React does not fully support dependency injection as it does not fully comply with the idea of functional programming and data immutability. Instead, it has a global state for all components.
+**React does not fully support dependency injection** as it **does not fully comply with the idea of functional programming** and **data immutability**. Instead, **it has a global state for all components**.
 
 `Angular`
 
-The greatest advantage of Angular rests in the fact that, unlike React, it supports dependency injection. Therefore, Angular allows having different lifecycles for different stores.
+The **greatest advantage of Angular rests in the fact that, unlike React, it supports dependency injection**. Therefore, Angular **allows having different lifecycles for different stores**.
 
 ### Data Binding
 
 `React`
 
-Data binding stands for the data synchronization process between Model and View. React should be augmented with Redux, which allows you to work with immutable data and makes data flow unidirectional. Unidirectional binding is predictable, which facilitates the debugging process.
+Data binding stands for the **data synchronization process between Model and View**. React should be **augmented with Redux**, which allows you to **work with immutable data and makes data flow unidirectional**. `Unidirectional binding` is **predictable, which facilitates the debugging process**.</br>
+
+One-way data binding means that **React is more performant than Angular** and also **makes debugging a React app easier** than debugging an Angular app, in my opinion.</br>
+
+An `immutable` object is an object whose state cannot be modified after it is created.
+
+A **unidirectional data flow means** that when designing a React app you often nest child components within higher-order parent components. The parent component(s) will have a container for the state of your app (typically an immutable variable called state, unless you are using Redux or Flux, in which case you would encapsulate your app’s state in a store).
+
+The **parent component typically passes down a snapshot of its state to its child components via read-only props** and `then the child components can communicate with the parent to update the state via callbacks` which are bound to a button or form in the child component.
 
 `Angular`
 
-Angular works with bidirectional data-binding and mutable data. While the advantages of mutable and immutable data are a matter of a heated discussion, it is definitely easier to work with bidirectional data-binding rather than with the unidirectional approach. At the same time, bidirectional data-binding negatively affects the performance since Angular automatically develops a watcher for each binding.
+Angular works with **bidirectional data-binding and mutable data**. While the advantages of mutable and immutable data are a matter of a heated discussion, it is **definitely easier to work with bidirectional data-binding rather than with the unidirectional approach**. At the `same time`, **bidirectional data-binding negatively affects the performance since Angular automatically develops a watcher for each binding**.</br>
 
-The ways of data-binding in Angular:
+A `mutable` object is an object whose state can be modified after it is created. 
 
-Angular comes with data-binding bundled in, whereas React today is usually augmented by Redux to provide unidirectional data flow and work with immutable data. 
-
-A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created. ... 
-
-Examples of native JavaScript values that are mutable include objects, arrays, functions, classes, sets, and maps.
-
-One-way data binding means that React is more performant than Angular and also makes debugging a React app easier than debugging an Angular app, in my opinion.
-
-A unidirectional data flow means that when designing a React app you often nest child components within higher-order parent components. The parent component(s) will have a container for the state of your app (typically an immutable variable called state, unless you are using Redux or Flux, in which case you would encapsulate your app’s state in a store).
-
-The parent component typically passes down a snapshot of its state to its child components via read-only props and then the child components can communicate with the parent to update the state via callbacks which are bound to a button or form in the child component.
+Examples of **native JavaScript values that are mutable include** `objects`, `arrays`, `functions`, `classes`, `sets`, and `maps`.
 
 
 ### Change Rendering
