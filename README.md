@@ -6,7 +6,7 @@
 
 Both Angular and React have component-based architecture, which means they have cohesive, reusable and modular components. But, 
 
-**The difference comes at the point of tech stack.**
+**---->The difference comes at the point of tech stack.**
 
 `React` uses **JavaScript** </br >
 `Angular` goes with **Typescript** for web development which is **more compact and error-free**
@@ -20,7 +20,7 @@ Both Angular and React have component-based architecture, which means they have 
 `React` can be bundled with **other programming libraries**, (React needs to be augmented by **Redux**.)</br >
 `Angular` is a **complete solution in itself**. For **uni-directional data flow**, 
 
-### Brief Overview
+### ---->Brief Overview
 
 ### React
 
@@ -30,7 +30,7 @@ React is a **JavaScript Library** for UI development, so apps written with **Rea
 
 Angular is a **full-fledged framework** for software development, which usually does **not require additional libraries**. All the above-mentioned functions – data binding, component-based routing, project generation, form validation, and dependency injection – can be implemented with the means of Angular package.
 
-### Universality
+### ---->Universality
 
 ### React
 
@@ -43,7 +43,7 @@ Angular is suitable for **both web and mobile development**. In mobile developme
 The counterpart of React Native is **NativeScript**.
 Angular **can also be used** for **both single- and multiple-page web apps**.
 
-### Self-Sufficiency
+### ---->Self-Sufficiency
 
 ### React
 
@@ -55,7 +55,7 @@ The framework was introduced in **May 2013**.
 Angular is an **open-sourced JavaScript framework for web and mobile development**. It is TypeScript-based and managed by **Google’s Angular Team and the Angular developer community**.
 Launched in **September 2016**, Angular (also known as Angular 2.0) is a complete rewrite of AngularJS (Angular 1.0), which was introduced in 2010.
 
-### Learning Curve
+### ---->Learning Curve
 
 ### React
 
@@ -69,7 +69,7 @@ Angular itself is a **huge framework**, and learning all the concepts associated
 
 Although **TypeScript closely resembles JavaScript**, it **also takes some time to learn**. Since the framework is constantly updated, the **developer needs to put some extra learning effort**.
 
-### Community
+### ---->Community
 
 ### React
 
@@ -87,7 +87,7 @@ Angular is **less admired than React and faces** a lot of skepticism, partially 
 
 Angular is **used by such companies** as McDonald’s, AT&T, HBO, Apple, Forbes, Adobe, Nike, and Microsoft as well.
 
-### Performance
+### ---->Performance
 
 ### React
 
@@ -102,7 +102,7 @@ The performance of Angular apps is **negatively affected by bidirectional data-b
 
 However, the most **recent update of Angular has greatly improved its performance**, and it does not lose to React anymore. Moreover, the **size of an Angular application is slightly smaller than the size of a React app**.
 
-### Language
+### ---->Language
 
 ### React
 
@@ -113,7 +113,7 @@ React is based on **JavaScript ES6+ combined with JSX script**. **JSX is an exte
 Angular can use **JavaScript or TypeScript, which is a superset of JS developed specifically for larger projects**. TypeScript is more compact than JavaScript, the **code is easier to navigate**, and **typos are easily spotted. Code refactoring process also becomes simpler and faster**.
 
 
-### App Structure
+### ---->App Structure
 
 ### React
 
@@ -131,7 +131,7 @@ Angular is based on three layers – **Model, Controller, and View**. An object 
 
 The application **code consists of different Angular components**, **each being written in four separate files**: a `TypeScript` to implement the component, an `HTML` file to define the view, a `CSS` file to define the stylistic features, and a special file for `testing` purposes. Links to these files are written in the app directive, which displays the structural logic of the app. Respectively, Angular components are also reusable.
 
-### UI Components
+### ---->UI Components
 
 ### React
 
@@ -141,7 +141,7 @@ The application **code consists of different Angular components**, **each being 
 
 Angular has a **built-in Material toolset**, and it offers a variety of pre-built material design components. There are various buttons, layouts, indicators, pop-ups, and form controls. Because of this, UI configuration becomes simpler and faster.
 
-### Directives
+### ---->Directives
 
 ### React
 
@@ -151,7 +151,7 @@ In React, **templates and logic are explained in one place** – at the end of t
 
 In Angular, **each template is returned with an attribute** – a directive of **how the object has to be set**. The syntax of Angular directives is **complex and sophisticated**, which makes it **incomprehensible for a reader without any experience in working with this technology**.
 
-### State Management
+### ---->State Management
 
 ### React
 
@@ -165,7 +165,7 @@ To **solve this problem**, there is a **special state management library – Red
 
 In Angular, **component data is stored in component properties**. **Parent components pass data through to children ones**. State changes in some parts can be identified and recalculated, but in a large app, it can cause a **multi-directional tree series of updates, which will be difficult to track**. The features can be **improved with the help of state management libraries**, such as **NgRx or RxJS**, `which would make sure that the data flow is unidirectional`.
 
-### Dependency Injection
+### ---->Dependency Injection
 
 ### React
 
@@ -175,7 +175,7 @@ In Angular, **component data is stored in component properties**. **Parent compo
 
 The **greatest advantage of Angular rests in the fact that, unlike React, it supports dependency injection**. Therefore, Angular **allows having different lifecycles for different stores**.
 
-### Data Binding
+### ---->Data Binding
 
 ### React
 
@@ -198,7 +198,7 @@ A `mutable` object is an object whose state can be modified after it is created.
 Examples of **native JavaScript values that are mutable include** `objects`, `arrays`, `functions`, `classes`, `sets`, and `maps`.
 
 
-### Change Rendering
+### ---->Change Rendering
 
 ### React
 
@@ -212,7 +212,7 @@ Angular uses a real DOM, which updates the entire tree structure even when the c
 
 To compensate for this disadvantage, Angular uses change detection to identify components that need to be altered. Therefore, the real DOM on Angular performs as effectively as the virtual DOM on React.
 
-### Tools
+### ---->Tools
 
 ### React
 
@@ -228,7 +228,7 @@ Similarly to React, Angular is supported by a variety of code editing tools. For
 
 Unlike React, Angular can be fully tested with a single tool. For the end-to-end testing in Angular, the platforms are Jasmine, Protractor, and Karma. Another tool that debugs the app in the development mode is a browser extension Augury.
 
-### To Wrap Up
+### ---->To Wrap Up
 
 Angular is a full-fledged mobile and web development framework. React is a framework only for UI development, which can be turned into a full-fledged solution with the help of additional libraries.
 
