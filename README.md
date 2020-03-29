@@ -253,4 +253,6 @@ As an **experienced developer**, you just keep working with what you know better
 
 Do not forget to challenge yourself and start learning a new framework, React or Angular. As a Project Manager or a business owner outsourcing developers, you should talk to your web development team and together choose the framework that suits all of you best, would it be Angular or React.
 
+![React Vs Angular](https://github.com/gtl-madhav/Angular-vs-React/blob/master/Angular_React_comparison-1.png)
+
 `Source` --> https://keenethics.com/blog/angular-vs-react-what-to-choose-for-your-app
