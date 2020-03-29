@@ -8,7 +8,7 @@ Both Angular and React have component-based architecture, which means they have 
 
 **The difference comes at the point of tech stack.**
 
-`React` uses **JavaScript** <\br >
+`React` uses **JavaScript** </br >
 `Angular` goes with **Typescript** for web development which is **more compact and error-free**
 
 `Angular` is a complete **framework**
