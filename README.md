@@ -2,19 +2,9 @@
 
 ### Angular vs React: What to Choose for Your App?
 
-Some people say that comparing React and Angular is like comparing apples to oranges. While one is a library that deals with views, the other is a full-fledged framework.
+`Some people say that comparing React and Angular is like comparing apples to oranges. While one is a library that deals with views, the other is a full-fledged framework.`
 
-Angular comes with data-binding bundled in, whereas React today is usually augmented by Redux to provide unidirectional data flow and work with immutable data. 
 
-A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created. ... 
-
-Examples of native JavaScript values that are mutable include objects, arrays, functions, classes, sets, and maps.
-
-One-way data binding means that React is more performant than Angular and also makes debugging a React app easier than debugging an Angular app, in my opinion.
-
-A unidirectional data flow means that when designing a React app you often nest child components within higher-order parent components. The parent component(s) will have a container for the state of your app (typically an immutable variable called state, unless you are using Redux or Flux, in which case you would encapsulate your app’s state in a store).
-
-The parent component typically passes down a snapshot of its state to its child components via read-only props and then the child components can communicate with the parent to update the state via callbacks which are bound to a button or form in the child component.
 
 Both Angular and React have component-based architecture, which means they have cohesive, reusable and modular components. But, the difference comes at the point of tech stack. React uses JavaScript while Angular goes with Typescript for web development which is more compact and error-free
 
@@ -205,3 +195,17 @@ React seems simpler at first sight, and it takes less time to start working on a
 There is no better framework. Both are updated continuously to keep up with the competitor. For instance, while React was believed to win because of its virtual DOM, Angular equaled the score by implementing change detection. While Angular was considered to be winning because of being developed by such an authoritative company as Google, the immense devoted React community fully compensated for Google‘s reputation and made React similar to Angular.
 
 Eventually, React vs Angular is all a matter of personal preference, a matter of skills and habits. As a beginner in programming, you would probably benefit more from starting with React. As an experienced developer, you just keep working with what you know better. Do not forget to challenge yourself and start learning a new framework, React or Angular. As a Project Manager or a business owner outsourcing developers, you should talk to your web development team and together choose the framework that suits all of you best, would it be Angular or React.
+
+Angular comes with data-binding bundled in, whereas React today is usually augmented by Redux to provide unidirectional data flow and work with immutable data. 
+
+A mutable object is an object whose state can be modified after it is created. An immutable object is an object whose state cannot be modified after it is created. ... 
+
+Examples of native JavaScript values that are mutable include objects, arrays, functions, classes, sets, and maps.
+
+One-way data binding means that React is more performant than Angular and also makes debugging a React app easier than debugging an Angular app, in my opinion.
+
+A unidirectional data flow means that when designing a React app you often nest child components within higher-order parent components. The parent component(s) will have a container for the state of your app (typically an immutable variable called state, unless you are using Redux or Flux, in which case you would encapsulate your app’s state in a store).
+
+The parent component typically passes down a snapshot of its state to its child components via read-only props and then the child components can communicate with the parent to update the state via callbacks which are bound to a button or form in the child component.
+
+`Source` --> https://keenethics.com/blog/angular-vs-react-what-to-choose-for-your-app
