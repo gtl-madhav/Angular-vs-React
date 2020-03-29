@@ -11,13 +11,13 @@ Both Angular and React have component-based architecture, which means they have 
 `React` uses **JavaScript** </br >
 `Angular` goes with **Typescript** for web development which is **more compact and error-free**
 
-`Angular` is a complete **framework**
+`Angular` is a complete **framework**</br >
 `React` is a **JavaScript Library.** 
 
-`Angular` uses a **two-directional data flow** process where it updates the **Real DOM directly**
+`Angular` uses a **two-directional data flow** process where it updates the **Real DOM directly**</br >
 `React` updates only the **Virtual DOM** and is concerned with the **one-directional data flow**. 
 
-`React` can be bundled with **other programming libraries**, (React needs to be augmented by **Redux**.)
+`React` can be bundled with **other programming libraries**, (React needs to be augmented by **Redux**.)</br >
 `Angular` is a **complete solution in itself**. For **uni-directional data flow**, 
 
 ### Brief Overview
